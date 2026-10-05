@@ -1,0 +1,27 @@
+Plots Summary – Brain Tumor Detection Project
+--------------------------------------------
+This file describes the plots generated during training and evaluation
+of classification, segmentation, and detection models.
+
+[Attention U-Net – Segmentation]
+- dice_curve.png        : Dice coefficient vs epochs
+- iou_curve.png         : Intersection-over-Union vs epochs
+- loss_curve.png        : Training and validation loss
+- prediction_overlay.png: Tumor mask overlaid on MRI image
+
+
+[Classification Models]
+ResNet50:
+- accuracy_curve.png    : Training vs validation accuracy
+- loss_curve.png        : Training vs validation loss
+- confusion_matrix.png  : Class-wise prediction performance
+
+VGG16 / VGG19 / EfficientNet-B0:
+- accuracy_curve.png
+- loss_curve.png
+
+[YOLO – Tumor Detection]
+- map_curve.png         : Mean Average Precision (mAP) vs epochs
+- precision_recall.png  : Precision–Recall curve
+- predictions.png       : Bounding box predictions on MRI images
+

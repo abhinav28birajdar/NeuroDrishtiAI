@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter and IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local datasets and generated artifacts
+data/
+datasets/
+figshare/
+Brain_tumor_binary/
+archive/
+models/
+checkpoints/
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+results/
+
+# Logs, tracking, and caches
+logs/
+wandb/
+mlruns/
+tmp/
+.cache/
+
+# Large media
+*.mp4
+*.avi
+*.mov
+*.zip
+*.rar
+
+# Local project explanation
+PROJECT_EXPLANATION.md
