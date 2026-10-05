@@ -220,9 +220,9 @@ healthcare professionals.
 
 ### Maintainer
 
-- **Abhinav Birajdar** — [GitHub](https://github.com/abhinav28birajdar)
+- **Abhinav Birajdar** — [![GitHub](https://img.shields.io/badge/GitHub-abhinav28birajdar-181717?logo=github&logoColor=white)](https://github.com/abhinav28birajdar)
 
 ### Contributors
 
-- **Akhand** — [GitHub](https://github.com/Akhand-20)
-- **Prathamesh** — [GitHub](https://github.com/pratham-5-prog)
+- **Akhand** — [![GitHub](https://img.shields.io/badge/GitHub-Akhand--20-181717?logo=github&logoColor=white)](https://github.com/Akhand-20)
+- **Prathamesh** — [![GitHub](https://img.shields.io/badge/GitHub-pratham--5--prog-181717?logo=github&logoColor=white)](https://github.com/pratham-5-prog)
