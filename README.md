@@ -154,8 +154,10 @@ cd NeuroDrishti-AI
 pip install -r requirements.txt
 ```
 
-The repository includes `runtime.txt` to keep Streamlit Community Cloud on
-Python 3.12, which is required by the pinned TensorFlow runtime.
+The repository includes `runtime.txt` to document the Python 3.14 runtime used
+by Streamlit Community Cloud. TensorFlow is pinned to the compatible
+`2.22.0rc0` pre-release build because stable TensorFlow wheels are not yet
+available for Python 3.14.
 
 ### 3. Run the Streamlit application
 
