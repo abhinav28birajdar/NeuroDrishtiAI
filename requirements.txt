@@ -1,24 +1,24 @@
-# Core Deep Learning & Scientific Computing
-numpy>=1.24.0
-pandas>=2.0.0
+# Runtime dependencies
+# TensorFlow 2.18.1 has wheels for the Python 3.12 runtime used by Streamlit
+# Community Cloud. Keep this version aligned with runtime.txt.
+numpy>=1.26,<2.1
+pandas>=2.0,<3
 scipy>=1.10.0
 scikit-learn>=1.3.0
-tensorflow>=2.15.0
-keras>=3.0.0
+tensorflow==2.18.1
+keras==3.8.0
 h5py>=3.10.0
-torch
-torchvision
-
-# Computer Vision & Image Processing
-opencv-python>=4.8.0
-pillow>=10.0.0
 matplotlib>=3.8.0
 
-# Interactive Dashboard & Web API
+# Computer vision and report generation
+opencv-python-headless>=4.8.0
+pillow>=10.0.0
+reportlab>=4.1.0
+
+# Streamlit dashboard and interactive charts
 streamlit>=1.36.0
 plotly>=5.18.0
+
+# Optional REST API support
 flask>=3.0.0
 flask-cors>=4.0.0
-
-# Automated Medical PDF Report Generation
-reportlab>=4.1.0

@@ -135,6 +135,12 @@ predicted class, class probabilities, and model confidence.
 
 ## 🚀 Installation and usage
 
+### Required project folders
+
+Keep the `.claude/skills/` folder in the repository. It contains the project
+development guidance used for Streamlit changes and is intentionally tracked by
+Git.
+
 ### 1. Clone the repository
 
 ```powershell
@@ -147,6 +153,9 @@ cd NeuroDrishti-AI
 ```powershell
 pip install -r requirements.txt
 ```
+
+The repository includes `runtime.txt` to keep Streamlit Community Cloud on
+Python 3.12, which is required by the pinned TensorFlow runtime.
 
 ### 3. Run the Streamlit application
 
