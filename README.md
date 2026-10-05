@@ -133,39 +133,41 @@ predicted class, class probabilities, and model confidence.
 
 ---
 
-## 🚀 Installation and usage
+## 🖥️ App visual
 
-### Required project folders
+<p align="center">
+  <img src="assests/appicon.png" alt="NeuroDrishti AI application logo" width="260">
+</p>
 
-Keep the `.claude/skills/` folder in the repository. It contains the project
-development guidance used for Streamlit changes and is intentionally tracked by
-Git.
+<p align="center">
+  <strong>NeuroDrishti AI dashboard</strong><br>
+  Upload an MRI scan, review the prediction, inspect Grad-CAM++ explanations,
+  compare class confidence, and generate a structured report.
+</p>
 
-### 1. Clone the repository
-
-```powershell
-git clone https://github.com/abhinav28birajdar/NeuroDrishti-AI.git
-cd NeuroDrishti-AI
+```mermaid
+flowchart LR
+    A[Upload MRI] --> B[ResNet50 inference]
+    B --> C[Diagnosis and confidence]
+    B --> D[Grad-CAM++ heatmap]
+    C --> E[Plotly confidence graph]
+    D --> F[Visual explanation]
+    E --> G[Diagnostic report]
+    F --> G
+    G --> H[PDF export]
 ```
 
-### 2. Install dependencies
+### Dashboard highlights
 
-```powershell
-pip install -r requirements.txt
-```
+| Workspace area | What it shows |
+| --- | --- |
+| MRI analysis | Upload, prediction cards, original scan, heatmap, and overlay |
+| Confidence breakdown | Interactive Plotly graph for all four classes |
+| Analysis history | Session-only history in the sidebar with a clear control |
+| Diagnostic report | Metadata, prediction, confidence graph, clinical context, and disclaimer |
+| Model information | Architecture, classes, evaluation metrics, and confusion matrix |
 
-The repository includes `runtime.txt` to document the Python 3.14 runtime used
-by Streamlit Community Cloud. TensorFlow is pinned to the compatible
-`2.22.0rc0` pre-release build because stable TensorFlow wheels are not yet
-available for Python 3.14.
 
-### 3. Run the Streamlit application
-
-```powershell
-python -m streamlit run streamlit_app.py
-```
-
-Open `http://localhost:8501` in your browser.
 
 ---
 
