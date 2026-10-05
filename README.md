@@ -11,7 +11,7 @@ contribute to the model's prediction.
 > NeuroDrishti AI is not a medical device and must not be used as a substitute
 > for professional medical diagnosis or clinical decision-making.
 
---
+---
 
 ## 📖 Overview
 
